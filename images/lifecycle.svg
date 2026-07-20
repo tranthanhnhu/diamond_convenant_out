@@ -1,0 +1,41 @@
+<svg width="1024" height="576" viewBox="0 0 1024 576" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="576" fill="#0A0A0F"/>
+  <defs>
+    <pattern id="g2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(124,92,255,0.06)" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#CCFF01"/>
+    </marker>
+  </defs>
+  <rect width="1024" height="576" fill="url(#g2)"/>
+  <text x="48" y="56" fill="#CCFF01" font-family="system-ui,sans-serif" font-size="12" letter-spacing="0.25em">MESSAGE LIFECYCLE</text>
+  <line x1="48" y1="64" x2="200" y2="64" stroke="#CCFF01" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif" font-size="12" fill="#E7E8EE">
+    <rect x="40" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#23252F"/>
+    <text x="88" y="234" text-anchor="middle">User</text>
+    <rect x="152" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#23252F"/>
+    <text x="200" y="234" text-anchor="middle">Channel</text>
+    <rect x="264" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#23252F"/>
+    <text x="312" y="234" text-anchor="middle">Gateway</text>
+    <rect x="376" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#23252F"/>
+    <text x="424" y="234" text-anchor="middle">Agent</text>
+    <rect x="488" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#23252F"/>
+    <text x="536" y="234" text-anchor="middle">Router</text>
+    <rect x="600" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#E8FF66" stroke-opacity="0.5"/>
+    <text x="648" y="234" text-anchor="middle" fill="#E8FF66">Verify</text>
+    <rect x="712" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#23252F"/>
+    <text x="760" y="234" text-anchor="middle">Tools</text>
+    <rect x="824" y="200" width="96" height="56" rx="10" fill="#12131A" stroke="#E8FF66" stroke-opacity="0.5"/>
+    <text x="872" y="234" text-anchor="middle" fill="#E8FF66">Receipt</text>
+  </g>
+  <path d="M136 228 H152" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M248 228 H264" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M360 228 H376" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M472 228 H488" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M584 228 H600" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M696 228 H712" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M808 228 H824" stroke="#CCFF01" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M872 256 C872 380 88 380 88 256" stroke="#E8FF66" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="480" y="420" fill="#E8FF66" font-family="system-ui,sans-serif" font-size="13" letter-spacing="0.2em" text-anchor="middle">REPLY</text>
+</svg>
